@@ -4,26 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
+    <style>
+       
+        header{
+            background-color: cadetblue;
+            color:  white   ;
+        }
+        nav{
+            background-color: black;
+            
+        }
+        iframe{
+            background-color: skyblue;
+        }
+
+        a{
+            color: white;
+        }
+        footer{
+            background-color: black;
+        }
+        /* body{
+            background-color: gray;
+        } */
+    </style>
 </head>
 <body>
     <!-- Header Section -->
     <header>
-    <p><span>Name: Akshay Kalsait &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mobile: 8208 70 3580 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:abc@gmail.com</span></p>
+    <p><span><strong>Name: Akshay Kalsait &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mobile: 8208 70 3580 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:abc@gmail.com</strong></span></p>
 </header>
 <hr>
     <!-- Navigation Section -->
     <nav>
-        <a href="home.html">HOME</a> &nbsp; &nbsp;&nbsp;
-        <a href="techStack.html">TECH STACK</a>&nbsp; &nbsp;&nbsp;
-        <a href="profile.html">PROJECT</a>&nbsp; &nbsp;&nbsp;
-        <a href="education.html"> EDUCATION</a>&nbsp; &nbsp;&nbsp;
-        <a href="others.html">OTHERS</a>
+        <a href="home.html" target="mainFrame">HOME</a> &nbsp; &nbsp;&nbsp;
+        <a href="techStack.html" target="mainFrame">TECH STACK</a>&nbsp; &nbsp;&nbsp;
+        <a href="profile.html" target="mainFrame">PROJECT</a>&nbsp; &nbsp;&nbsp;
+        <a href="education.html" target="mainFrame"> EDUCATION</a>&nbsp; &nbsp;&nbsp;
+        <a href="others.html" target="mainFrame">OTHERS</a>
     </nav>
     <hr>
 
 
     <!-- Body Section -->
-    <iframe src="home.html" frameborder="1" width="800px" height="400px"></iframe>
+    <iframe src="home.html" name="mainFrame" frameborder="1" width="800px" height="400px"></iframe>
 
     <!-- Footer Section -->
     <footer>
