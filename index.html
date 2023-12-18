@@ -1,60 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Index</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <style>
-       
-        header{
-            background-color: cadetblue;
-            
-        }
-        nav a{
-            font-weight: bolder;
-            color: black;
-            
-        }
-        /* iframe{
+      header {
+        background-color: cadetblue;
+      }
+      nav a {
+        margin-right: 40px;
+        text-decoration: none;
+        font-weight: bolder;
+        background-color: green;
+        border-radius: 30px;
+        padding: 10px 10px;
+        color: white;
+      }
+      #homeLink {
+        margin-left: 10px;
+      }
+
+      /* iframe{
             background-color: skyblue;
         } */
 
-       /* nav a{
+      /* nav a{
             color: white;
         } */
-        footer a{
-            font-weight: bolder;
-        }
-        /* body{
+      footer a {
+        font-weight: bolder;
+        margin-right: 20px;
+        
+      }
+      header span {
+        margin-right: 20px;
+
+        font-weight: bolder;
+      }
+      header {
+        text-align: right;
+      }
+      header img {
+        width: 80px;
+        height: 80px;
+        margin-right: 100%;
+        /* padding-left: 30px;
+        padding-top: 20px; */
+        border-radius: 50%;
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+      /* body{
             background-color: gray;
         } */
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header Section -->
     <header>
-    <p><span><strong>Name: Akshay Kalsait &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mobile: 8208 70 3580 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email:abc@gmail.com</strong></span></p>
-</header>
-<hr>
+      <img src="assets/Image20231204080706.png" alt="" />
+      <span> <i class="fa fa-user" aria-hidden="true"></i> Akshay Kalsait</span>
+      <span
+        ><i class="fa fa-phone-square" aria-hidden="true"></i> 8208 70 3580
+      </span>
+      <span
+        ><i class="fa fa-envelope" aria-hidden="true"></i>abc@gmail.com</span
+      >
+    </header>
+    <hr />
+    <br />
     <!-- Navigation Section -->
     <nav>
-        <a href="home.html" target="mainFrame">HOME</a> &nbsp; &nbsp;&nbsp;
-        <a href="techStack.html" target="mainFrame">TECH STACK</a>&nbsp; &nbsp;&nbsp;
-        <a href="profile.html" target="mainFrame">PROJECT</a>&nbsp; &nbsp;&nbsp;
-        <a href="education.html" target="mainFrame"> EDUCATION</a>&nbsp; &nbsp;&nbsp;
-        <a href="others.html" target="mainFrame">OTHERS</a>
+      <a href="home.html" target="mainFrame" id="homeLink">HOME</a>
+      <a href="techStack.html" target="mainFrame">TECH STACK</a>
+      <a href="profile.html" target="mainFrame">PROJECT</a>&nbsp;
+      <a href="education.html" target="mainFrame"> EDUCATION</a>
+      <a href="others.html" target="mainFrame">OTHERS</a>
     </nav>
-    <hr>
-
+    <br />
 
     <!-- Body Section -->
-    <iframe src="home.html" name="mainFrame" frameborder="1" width="800px" height="400px"></iframe>
+    <iframe
+      src="home.html"
+      name="mainFrame"
+      frameborder="1"
+      width="800px"
+      height="400px"
+    ></iframe>
 
     <!-- Footer Section -->
     <footer>
-        <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="1">Linked In</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://github.com/akshaykalsait/profile-akshay" target="1">GitHub</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-homepage&_ga=2.260303053.1541818311.1702458671-2103180888.1702458671" target="1">Indeed</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a
+        href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+        target="1"
+        ><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      
+      <a href="https://github.com/akshaykalsait/profile-akshay" target="1"
+        ><i class="fa fa-github" aria-hidden="true"></i></a>
+      <a
+        href="https://profile.indeed.com/?hl=en_IN&co=IN&from=gnav-homepage&_ga=2.260303053.1541818311.1702458671-2103180888.1702458671"
+        target="1"
+        >Indeed</a>
     </footer>
-</body>
-</html> 
+  </body>
+</html>
