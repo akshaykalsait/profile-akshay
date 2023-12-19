@@ -8,6 +8,7 @@
         h2{
             background-color: navy;
             color: white;
+            padding: 10px;
         }
         span{
             color: red;
@@ -19,7 +20,22 @@
         ul{
             background-color: rgb(252, 126, 126);
         }
-    
+        #emoji li::before{
+            content: "👉";
+        }
+        #emoji li{
+            list-style-type: none;
+            padding: 10px;
+        }
+        h2:hover{
+            background-color: black;
+            color: white;
+        }
+        #emoji:hover{
+            background-color: black;
+            color: white;
+        }
+       
         
     </style>
 </head>
@@ -27,8 +43,8 @@
     <h2>Career Objectives</h2>
     <p><strong>To working organization where i can learn and grow for help organization growth</strong></p>
     <h2>Professional Summary</h2>
-   <br>
-   <ul>
+   
+   <ul id="emoji">
     <strong>
     <li id="one">Having 5 year of experience in developing single page web applications using <span>Angular 13</span, HTML5, CSS3, Bootstrap5, JavaScript, TypeScript </li>
     <li>Experience on working with version control system - GIT and GitHub</li>
